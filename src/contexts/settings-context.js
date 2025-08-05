@@ -69,13 +69,13 @@ const storeSettings = (value) => {
 
 const initialSettings = {
   direction: "ltr",
-  paletteMode: "light",
-  currentTheme: { value: "light", label: "light" },
+  paletteMode: "dark",
+  currentTheme: { value: "dark", label: "dark" },
   pinNav: true,
   currentTenant: null,
   showDevtools: false,
   customBranding: {
-    colour: "#F77F00",
+    colour: "#808e48ff",
     logo: null,
   },
 };
