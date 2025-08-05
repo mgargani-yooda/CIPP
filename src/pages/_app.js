@@ -259,7 +259,7 @@ const App = (props) => {
                   if (!settings.isInitialized) {
                   }
                   const theme = createTheme({
-                    colorPreset: "indigo",
+                    colorPreset: "yooda",
                     direction: settings.direction,
                     paletteMode:
                       settings.currentTheme?.value !== "browser"

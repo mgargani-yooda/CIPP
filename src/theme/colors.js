@@ -52,6 +52,13 @@ export const purple = withAlphas({
   contrastText: "#FFFFFF",
 });
 
+export const yooda = withAlphas({
+  light: "#518550ff",
+  main: "#d0df95",
+  dark: "#518550ff",
+  contrastText: "#000000",
+});
+
 export const success = withAlphas({
   light: "#3FC79A",
   main: "#10B981",
