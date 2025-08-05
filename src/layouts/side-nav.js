@@ -212,7 +212,7 @@ export const SideNav = (props) => {
                 })}
               </Box>{" "}
               {/* Add this closing tag */}
-              {profile?.clientPrincipal && (
+              {/* {profile?.clientPrincipal && (
                 <>
                   <Divider />
                   <Typography
@@ -244,6 +244,7 @@ export const SideNav = (props) => {
                   </Box>
                 </>
               )}
+              */}
             </Box>{" "}
             {/* Closing tag for the parent Box */}
           </Scrollbar>
